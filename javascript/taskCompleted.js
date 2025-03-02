@@ -11,5 +11,8 @@ for(let comBtn of taskAssign){
     
     quantityElement.innerText = newQuantity;
     alert('Thanks for Completing this Task');
+    if(newQuantity === 0){
+        alert('Congratulations! You have successfully completed all tasks assigned to you. Great work !!.')
+    }
    })
 }
