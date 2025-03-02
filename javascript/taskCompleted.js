@@ -1,6 +1,7 @@
+
 const taskAssign = document.querySelectorAll(".completedBtn");
 for(let comBtn of taskAssign){
-   comBtn.addEventListener('click',function(){
+    comBtn.addEventListener('click',function(){
     const amount = event.target.innerText === "Completed" ? -1 : 1;
    
     const quantityElement = document.getElementById('quantity');
