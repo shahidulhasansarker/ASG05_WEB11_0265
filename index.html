@@ -22,7 +22,7 @@
                     <h1 class="text-2xl ml-5">23</h1>
                 </div>
                 <div class="flex items-center ml-5">
-                    <img src="./images/theme-btn.png" alt="">
+                    <img onclick="randomNumber()" class="box cursor-pointer" src="./images/theme-btn.png" alt="">
                 </div>
             </div>
         </nav>
@@ -38,15 +38,15 @@
                             <img src="./images/checkbox.png" alt="">
                         </div>
                         <div>
-                            <p>Task Assigned</p>
-                            <h2 class="font-bold">06</h2>
+                            <p >Task Assigned</p>
+                            <h2 class="font-bold text-2xl">06</h2>
                         </div>
                     </div>
                     <!-- Discover Something No. 2 Div -->
-                    <div class="col-span-4 bg-blue-400 rounded-lg flex items-center justify-center">
+                    <div id="btn-login" class="col-span-4 bg-blue-400 rounded-lg box cursor-pointer flex items-center justify-center">
                         <div class="flex justify-center items-center">
                             <img src="./images/board.png" alt="calender image">
-                            <h1 class="text-2xl text-white">Discover Something New Today!</h1>
+                            <button  class="text-2xl text-white box cursor-pointer">Discover Something New Today!</button>
                         </div>
                     </div>
                     <!-- div 3 -->
@@ -71,7 +71,7 @@
                                 <h4 class="font-bold">21 March 2025</h4>
                             </div>
                             <div>
-                                <Button class="bg-blue-400 p-2 rounded-lg font-bold text-white ml-5" >Completed</Button>
+                                <Button class="completedBtn  bg-blue-400 p-2 rounded-lg font-bold text-white ml-5" >Completed</Button>
                             </div>
                         </div>
                        </div>
@@ -88,7 +88,7 @@
                                  <h4 class="font-bold">21 March 2025</h4>
                              </div>
                              <div>
-                                 <Button class="bg-blue-400 p-2 rounded-lg font-bold text-white ml-5" >Completed</Button>
+                                 <Button class="completedBtn bg-blue-400 p-2 rounded-lg font-bold text-white ml-5" >Completed</Button>
                              </div>
                          </div>
                         </div>
@@ -105,7 +105,7 @@
                                  <h4 class="font-bold">21 March 2025</h4>
                              </div>
                              <div>
-                                 <Button class="bg-blue-400 p-2 rounded-lg font-bold text-white ml-5" >Completed</Button>
+                                 <Button class="completedBtn bg-blue-400 p-2 rounded-lg font-bold text-white ml-5" >Completed</Button>
                              </div>
                          </div>
                         </div>
@@ -122,7 +122,7 @@
                                  <h4 class="font-bold">21 March 2025</h4>
                              </div>
                              <div>
-                                 <Button class="bg-blue-400 p-2 rounded-lg font-bold text-white ml-5" >Completed</Button>
+                                 <Button class="completedBtn bg-blue-400 p-2 rounded-lg font-bold text-white ml-5" >Completed</Button>
                              </div>
                          </div>
                         </div>
@@ -139,7 +139,7 @@
                                  <h4 class="font-bold">21 March 2025</h4>
                              </div>
                              <div>
-                                 <Button class="bg-blue-400 p-2 rounded-lg font-bold text-white ml-5" >Completed</Button>
+                                 <Button class="completedBtn bg-blue-400 p-2 rounded-lg font-bold text-white ml-5" >Completed</Button>
                              </div>
                          </div>
                         </div>
@@ -156,7 +156,7 @@
                                  <h4 class="font-bold">21 March 2025</h4>
                              </div>
                              <div>
-                                 <Button class="bg-blue-400 p-2 rounded-lg font-bold text-white ml-5" >Completed</Button>
+                                 <Button class="completedBtn bg-blue-400 p-2 rounded-lg font-bold text-white ml-5" >Completed</Button>
                              </div>
                          </div>
                         </div>
@@ -180,5 +180,10 @@
     <footer>
 
     </footer>
+
+
+    <script src="./javascript/previousNextPage.js"></script>
+    <script src="./javascript/rendom.js"></script>
+    <script src="./javascript/taskCompleted.js"></script>
 </body>
 </html>
